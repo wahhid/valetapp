@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="title" type="java.lang.String" value="Correction and Manual Transaction - Jakcollaboration.com"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="insertButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="editButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="saveButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="reloadButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="form1" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="insertButton1" min="-2" max="-2" attributes="0"/>
+                  <Component id="editButton1" min="-2" max="-2" attributes="0"/>
+                  <Component id="saveButton1" min="-2" max="-2" attributes="0"/>
+                  <Component id="reloadButton1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="form1" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="org.openswing.swing.form.client.Form" name="form1">
+      <Properties>
+        <Property name="VOClassName" type="java.lang.String" value="org.jakc.valetadmindesk.vo.Transvalet"/>
+        <Property name="editButton" type="org.openswing.swing.client.EditButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="editButton1"/>
+        </Property>
+        <Property name="insertButton" type="org.openswing.swing.client.InsertButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="insertButton1"/>
+        </Property>
+        <Property name="reloadButton" type="org.openswing.swing.client.ReloadButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="reloadButton1"/>
+        </Property>
+        <Property name="saveButton" type="org.openswing.swing.client.SaveButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="saveButton1"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+              <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+              <Component id="jPanel5" alignment="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel1" min="-2" pref="217" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel5" pref="222" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="labelControl2" alignment="1" min="-2" pref="128" max="-2" attributes="0"/>
+                                      <Component id="labelControl3" min="-2" pref="128" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="labelControl4" min="-2" pref="128" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtcarnumber" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="txttransid" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="cbtranstype" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="labelControl26" min="-2" pref="128" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbpricing" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txttransid" alignment="0" pref="25" max="32767" attributes="1"/>
+                          <Component id="labelControl2" alignment="1" pref="25" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="labelControl3" pref="25" max="32767" attributes="1"/>
+                          <Component id="txtcarnumber" alignment="0" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="labelControl4" max="32767" attributes="1"/>
+                          <Component id="cbtranstype" alignment="0" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="labelControl26" alignment="0" max="32767" attributes="1"/>
+                          <Component id="cbpricing" alignment="0" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace pref="16" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="org.openswing.swing.client.TextControl" name="txttransid">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" value="transid"/>
+                <Property name="enabledOnEdit" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txttransidActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.openswing.swing.client.LabelControl" name="labelControl2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Trans ID"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.LabelControl" name="labelControl3">
+              <Properties>
+                <Property name="label" type="java.lang.String" value="Car Number"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.TextControl" name="txtcarnumber">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" value="carnumber"/>
+                <Property name="enabledOnEdit" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.LabelControl" name="labelControl4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Type"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.ComboBoxControl" name="cbtranstype">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" value="transtype"/>
+                <Property name="enabledOnEdit" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.LabelControl" name="labelControl26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pricing"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.ComboBoxControl" name="cbpricing">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" value="transtype"/>
+                <Property name="enabledOnEdit" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="columns" type="int" value="2"/>
+            <Property name="horizontalGap" type="int" value="10"/>
+            <Property name="rows" type="int" value="1"/>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="In"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="labelControl1" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="dcdatein" pref="238" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="labelControl5" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbhourin" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="labelControl24" min="-2" pref="4" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbminutein" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="labelControl9" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbshiftin" pref="238" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="labelControl8" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbdriverin" pref="238" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="labelControl7" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                                      <Component id="labelControl6" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cboprin" alignment="0" pref="238" max="32767" attributes="0"/>
+                                      <Component id="cbboothin" alignment="0" pref="238" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="labelControl1" max="32767" attributes="1"/>
+                              <Component id="dcdatein" alignment="0" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelControl24" alignment="3" pref="25" max="32767" attributes="1"/>
+                                  <Component id="cbhourin" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbminutein" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="labelControl5" alignment="1" min="-2" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl6" max="32767" attributes="1"/>
+                              <Component id="cboprin" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl7" alignment="0" max="32767" attributes="1"/>
+                              <Component id="cbboothin" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl8" alignment="0" max="32767" attributes="1"/>
+                              <Component id="cbdriverin" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl9" alignment="0" max="32767" attributes="1"/>
+                              <Component id="cbshiftin" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="297" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Date"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.DateControl" name="dcdatein">
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Time"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Operator"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.ComboBoxControl" name="cboprin">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="oprin"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Booth"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.ComboBoxControl" name="cbboothin">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="boothin"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Driver"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.ComboBoxControl" name="cbdriverin">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="driverin"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Shift"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.ComboBoxControl" name="cbshiftin">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="shiftin"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl24">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value=":"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbhourin">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="24">
+                        <StringItem index="0" value="00"/>
+                        <StringItem index="1" value="01"/>
+                        <StringItem index="2" value="02"/>
+                        <StringItem index="3" value="03"/>
+                        <StringItem index="4" value="04"/>
+                        <StringItem index="5" value="05"/>
+                        <StringItem index="6" value="06"/>
+                        <StringItem index="7" value="07"/>
+                        <StringItem index="8" value="08"/>
+                        <StringItem index="9" value="09"/>
+                        <StringItem index="10" value="10"/>
+                        <StringItem index="11" value="11"/>
+                        <StringItem index="12" value="12"/>
+                        <StringItem index="13" value="13"/>
+                        <StringItem index="14" value="14"/>
+                        <StringItem index="15" value="15"/>
+                        <StringItem index="16" value="16"/>
+                        <StringItem index="17" value="17"/>
+                        <StringItem index="18" value="18"/>
+                        <StringItem index="19" value="19"/>
+                        <StringItem index="20" value="20"/>
+                        <StringItem index="21" value="21"/>
+                        <StringItem index="22" value="22"/>
+                        <StringItem index="23" value="23"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbminutein">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="60">
+                        <StringItem index="0" value="00"/>
+                        <StringItem index="1" value="01"/>
+                        <StringItem index="2" value="02"/>
+                        <StringItem index="3" value="03"/>
+                        <StringItem index="4" value="04"/>
+                        <StringItem index="5" value="05"/>
+                        <StringItem index="6" value="06"/>
+                        <StringItem index="7" value="07"/>
+                        <StringItem index="8" value="08"/>
+                        <StringItem index="9" value="09"/>
+                        <StringItem index="10" value="10"/>
+                        <StringItem index="11" value="11"/>
+                        <StringItem index="12" value="12"/>
+                        <StringItem index="13" value="13"/>
+                        <StringItem index="14" value="14"/>
+                        <StringItem index="15" value="15"/>
+                        <StringItem index="16" value="16"/>
+                        <StringItem index="17" value="17"/>
+                        <StringItem index="18" value="18"/>
+                        <StringItem index="19" value="19"/>
+                        <StringItem index="20" value="20"/>
+                        <StringItem index="21" value="21"/>
+                        <StringItem index="22" value="22"/>
+                        <StringItem index="23" value="23"/>
+                        <StringItem index="24" value="24"/>
+                        <StringItem index="25" value="25"/>
+                        <StringItem index="26" value="26"/>
+                        <StringItem index="27" value="27"/>
+                        <StringItem index="28" value="28"/>
+                        <StringItem index="29" value="29"/>
+                        <StringItem index="30" value="30"/>
+                        <StringItem index="31" value="31"/>
+                        <StringItem index="32" value="32"/>
+                        <StringItem index="33" value="33"/>
+                        <StringItem index="34" value="34"/>
+                        <StringItem index="35" value="35"/>
+                        <StringItem index="36" value="36"/>
+                        <StringItem index="37" value="37"/>
+                        <StringItem index="38" value="38"/>
+                        <StringItem index="39" value="39"/>
+                        <StringItem index="40" value="40"/>
+                        <StringItem index="41" value="41"/>
+                        <StringItem index="42" value="42"/>
+                        <StringItem index="43" value="43"/>
+                        <StringItem index="44" value="44"/>
+                        <StringItem index="45" value="45"/>
+                        <StringItem index="46" value="46"/>
+                        <StringItem index="47" value="47"/>
+                        <StringItem index="48" value="48"/>
+                        <StringItem index="49" value="49"/>
+                        <StringItem index="50" value="50"/>
+                        <StringItem index="51" value="51"/>
+                        <StringItem index="52" value="52"/>
+                        <StringItem index="53" value="53"/>
+                        <StringItem index="54" value="54"/>
+                        <StringItem index="55" value="55"/>
+                        <StringItem index="56" value="56"/>
+                        <StringItem index="57" value="57"/>
+                        <StringItem index="58" value="58"/>
+                        <StringItem index="59" value="59"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Out"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="labelControl10" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="dcdateout" pref="238" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="labelControl11" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbhourout" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="labelControl25" min="-2" pref="4" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbminuteout" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="labelControl13" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbboothout" pref="238" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="labelControl14" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbdriverout" pref="238" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="labelControl15" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbshiftout" pref="238" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="labelControl12" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cboprout" pref="238" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="labelControl10" alignment="0" max="32767" attributes="1"/>
+                              <Component id="dcdateout" alignment="0" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl11" pref="30" max="32767" attributes="1"/>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="labelControl25" alignment="3" pref="30" max="32767" attributes="1"/>
+                                  <Component id="cbhourout" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbminuteout" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl12" max="32767" attributes="1"/>
+                              <Component id="cboprout" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl13" alignment="0" max="32767" attributes="1"/>
+                              <Component id="cbboothout" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl14" alignment="0" max="32767" attributes="1"/>
+                              <Component id="cbdriverout" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl15" alignment="0" max="32767" attributes="1"/>
+                              <Component id="cbshiftout" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="297" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl10">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Date"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.DateControl" name="dcdateout">
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl11">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Time"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl12">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Operator"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.ComboBoxControl" name="cboprout">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="oprout"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl13">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Booth"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.ComboBoxControl" name="cbboothout">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="boothout"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl14">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Driver"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.ComboBoxControl" name="cbdriverout">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="driverout"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl15">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Shift"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.ComboBoxControl" name="cbshiftout">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="shiftout"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl25">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value=":"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbhourout">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="24">
+                        <StringItem index="0" value="00"/>
+                        <StringItem index="1" value="01"/>
+                        <StringItem index="2" value="02"/>
+                        <StringItem index="3" value="03"/>
+                        <StringItem index="4" value="04"/>
+                        <StringItem index="5" value="05"/>
+                        <StringItem index="6" value="06"/>
+                        <StringItem index="7" value="07"/>
+                        <StringItem index="8" value="08"/>
+                        <StringItem index="9" value="09"/>
+                        <StringItem index="10" value="10"/>
+                        <StringItem index="11" value="11"/>
+                        <StringItem index="12" value="12"/>
+                        <StringItem index="13" value="13"/>
+                        <StringItem index="14" value="14"/>
+                        <StringItem index="15" value="15"/>
+                        <StringItem index="16" value="16"/>
+                        <StringItem index="17" value="17"/>
+                        <StringItem index="18" value="18"/>
+                        <StringItem index="19" value="19"/>
+                        <StringItem index="20" value="20"/>
+                        <StringItem index="21" value="21"/>
+                        <StringItem index="22" value="22"/>
+                        <StringItem index="23" value="23"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbminuteout">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="60">
+                        <StringItem index="0" value="00"/>
+                        <StringItem index="1" value="01"/>
+                        <StringItem index="2" value="02"/>
+                        <StringItem index="3" value="03"/>
+                        <StringItem index="4" value="04"/>
+                        <StringItem index="5" value="05"/>
+                        <StringItem index="6" value="06"/>
+                        <StringItem index="7" value="07"/>
+                        <StringItem index="8" value="08"/>
+                        <StringItem index="9" value="09"/>
+                        <StringItem index="10" value="10"/>
+                        <StringItem index="11" value="11"/>
+                        <StringItem index="12" value="12"/>
+                        <StringItem index="13" value="13"/>
+                        <StringItem index="14" value="14"/>
+                        <StringItem index="15" value="15"/>
+                        <StringItem index="16" value="16"/>
+                        <StringItem index="17" value="17"/>
+                        <StringItem index="18" value="18"/>
+                        <StringItem index="19" value="19"/>
+                        <StringItem index="20" value="20"/>
+                        <StringItem index="21" value="21"/>
+                        <StringItem index="22" value="22"/>
+                        <StringItem index="23" value="23"/>
+                        <StringItem index="24" value="24"/>
+                        <StringItem index="25" value="25"/>
+                        <StringItem index="26" value="26"/>
+                        <StringItem index="27" value="27"/>
+                        <StringItem index="28" value="28"/>
+                        <StringItem index="29" value="29"/>
+                        <StringItem index="30" value="30"/>
+                        <StringItem index="31" value="31"/>
+                        <StringItem index="32" value="32"/>
+                        <StringItem index="33" value="33"/>
+                        <StringItem index="34" value="34"/>
+                        <StringItem index="35" value="35"/>
+                        <StringItem index="36" value="36"/>
+                        <StringItem index="37" value="37"/>
+                        <StringItem index="38" value="38"/>
+                        <StringItem index="39" value="39"/>
+                        <StringItem index="40" value="40"/>
+                        <StringItem index="41" value="41"/>
+                        <StringItem index="42" value="42"/>
+                        <StringItem index="43" value="43"/>
+                        <StringItem index="44" value="44"/>
+                        <StringItem index="45" value="45"/>
+                        <StringItem index="46" value="46"/>
+                        <StringItem index="47" value="47"/>
+                        <StringItem index="48" value="48"/>
+                        <StringItem index="49" value="49"/>
+                        <StringItem index="50" value="50"/>
+                        <StringItem index="51" value="51"/>
+                        <StringItem index="52" value="52"/>
+                        <StringItem index="53" value="53"/>
+                        <StringItem index="54" value="54"/>
+                        <StringItem index="55" value="55"/>
+                        <StringItem index="56" value="56"/>
+                        <StringItem index="57" value="57"/>
+                        <StringItem index="58" value="58"/>
+                        <StringItem index="59" value="59"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbminuteoutActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="columns" type="int" value="2"/>
+            <Property name="horizontalGap" type="int" value="12"/>
+            <Property name="rows" type="int" value="1"/>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="12" pref="12" max="12" attributes="0"/>
+                                  <Component id="labelControl17" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="numericControl2" pref="174" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="12" pref="12" max="12" attributes="0"/>
+                                  <Component id="labelControl16" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="numericControl1" pref="174" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="labelControl22" min="-2" pref="128" max="-2" attributes="0"/>
+                                      <Component id="labelControl23" alignment="1" min="-2" pref="128" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="chkmissingticket" min="-2" pref="20" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="chkvoucher" min="-2" pref="20" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="txtvoucherdetailid" pref="158" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="labelControl16" min="-2" pref="25" max="-2" attributes="1"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="labelControl17" min="-2" pref="25" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="1">
+                                  <Component id="numericControl1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="numericControl2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtvoucherdetailid" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkvoucher" alignment="0" max="32767" attributes="1"/>
+                              <Component id="labelControl22" alignment="0" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="chkmissingticket" max="32767" attributes="1"/>
+                              <Component id="labelControl23" min="-2" pref="21" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace pref="78" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl16">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Hours"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl17">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Minutes"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl22">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Voucher"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.CheckBoxControl" name="chkvoucher">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="voucher"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkvoucherActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="org.openswing.swing.client.NumericControl" name="numericControl1">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="hours"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="enabledOnEdit" type="boolean" value="false"/>
+                    <Property name="enabledOnInsert" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.NumericControl" name="numericControl2">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="minutes"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="enabledOnEdit" type="boolean" value="false"/>
+                    <Property name="enabledOnInsert" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.TextControl" name="txtvoucherdetailid">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="voucherdetailid"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl23">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Missing Ticket"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.CheckBoxControl" name="chkmissingticket">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="reciept"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkmissingticketActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel7">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="labelControl18" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="currencyControl1" pref="176" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="labelControl19" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="currencyControl2" pref="176" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="labelControl20" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="currencyControl3" pref="176" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="labelControl27" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="currencyControl5" pref="176" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="labelControl21" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="currencyControl4" pref="176" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="labelControl28" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="currencyControl6" pref="176" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="currencyControl1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelControl18" alignment="1" min="-2" pref="25" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="currencyControl2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelControl19" alignment="1" min="-2" pref="25" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="currencyControl3" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelControl20" alignment="1" min="-2" pref="25" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="currencyControl6" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelControl28" alignment="1" min="-2" pref="25" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="currencyControl5" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelControl27" alignment="1" min="-2" pref="25" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="currencyControl4" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelControl21" alignment="1" min="-2" pref="25" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace pref="23" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl18">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Valet Charge"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.CurrencyControl" name="currencyControl1">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="valetcharge"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="enabledOnEdit" type="boolean" value="false"/>
+                    <Property name="enabledOnInsert" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl19">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Parking Charge"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.CurrencyControl" name="currencyControl2">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="parkingcharge"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="enabledOnEdit" type="boolean" value="false"/>
+                    <Property name="enabledOnInsert" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl20">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pinalty Charge"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.CurrencyControl" name="currencyControl3">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="pinaltycharge"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="enabledOnEdit" type="boolean" value="false"/>
+                    <Property name="enabledOnInsert" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl21">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Total Charge"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.CurrencyControl" name="currencyControl4">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="totalcharge"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="enabledOnEdit" type="boolean" value="false"/>
+                    <Property name="enabledOnInsert" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl27">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Voucher Charge"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.CurrencyControl" name="currencyControl5">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="vouchercharge"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="enabledOnEdit" type="boolean" value="false"/>
+                    <Property name="enabledOnInsert" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.LabelControl" name="labelControl28">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ticket Charge"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.CurrencyControl" name="currencyControl6">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" value="receiptcharge"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="enabledOnEdit" type="boolean" value="false"/>
+                    <Property name="enabledOnInsert" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="org.openswing.swing.client.InsertButton" name="insertButton1">
+    </Component>
+    <Component class="org.openswing.swing.client.EditButton" name="editButton1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="org.openswing.swing.client.SaveButton" name="saveButton1">
+    </Component>
+    <Component class="org.openswing.swing.client.ReloadButton" name="reloadButton1">
+    </Component>
+  </SubComponents>
+</Form>

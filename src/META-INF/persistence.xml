@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="ValetAppPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>org.jakc.valetadmindesk.vo.Booth</class>
+    <class>org.jakc.valetadmindesk.vo.Employee</class>
+    <class>org.jakc.valetadmindesk.vo.Employeetype</class>
+    <class>org.jakc.valetadmindesk.vo.Form</class>
+    <class>org.jakc.valetadmindesk.vo.Idseq</class>
+    <class>org.jakc.valetadmindesk.vo.Logging</class>
+    <class>org.jakc.valetadmindesk.vo.Loginhistory</class>
+    <class>org.jakc.valetadmindesk.vo.Pricing</class>
+    <class>org.jakc.valetadmindesk.vo.Roles</class>
+    <class>org.jakc.valetadmindesk.vo.Shift</class>
+    <class>org.jakc.valetadmindesk.vo.Transcorrection</class>
+    <class>org.jakc.valetadmindesk.vo.Transreprint</class>
+    <class>org.jakc.valetadmindesk.vo.Transvalet</class>
+    <class>org.jakc.valetadmindesk.vo.Voucher</class>
+    <class>org.jakc.valetadmindesk.vo.Voucherdetail</class>
+    <class>org.jakc.valetadmindesk.vo.Voucherty pe</class>
+    <class>org.jakc.valetadmindesk.vo.Configuration</class>
+    <class>org.jakc.valetadmindesk.vo.Transvaletcorrection</class>
+    <shared-cache-mode>NONE</shared-cache-mode>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://172.16.0.17:3306/parkdb"/>
+      <property name="javax.persistence.jdbc.password" value="P@ssw0rd"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="userdb"/>
+    </properties>
+  </persistence-unit>
+</persistence>
